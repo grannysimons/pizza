@@ -8,11 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class pizzaVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
 
     override func didReceiveMemoryWarning() {
